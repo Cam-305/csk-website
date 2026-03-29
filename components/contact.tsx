@@ -48,9 +48,6 @@ export default function Contact({ showPage }: ContactProps) {
             <p>
               <strong>Email Support:</strong> getchildsafeprogram@gmail.com
             </p>
-            <p>
-              <strong>SMS Support:</strong> Text HELP to any message
-            </p>
             <p className="mb-6">
               <strong>Response Time:</strong> Within 24 hours during business days
             </p>
@@ -75,6 +72,28 @@ export default function Contact({ showPage }: ContactProps) {
                 </p>
               </>
             )}
+
+            <div className="mt-6 p-4 bg-slate-50 rounded-lg">
+              <p className="text-sm text-slate-600">
+                By using our services, you agree to our{" "}
+                {showPage ? (
+                  <a onClick={() => showPage("terms")} className="text-blue-500 cursor-pointer hover:text-blue-700 underline">
+                    Terms of Service
+                  </a>
+                ) : (
+                  <span>Terms of Service</span>
+                )}{" "}
+                and{" "}
+                {showPage ? (
+                  <a onClick={() => showPage("privacy")} className="text-blue-500 cursor-pointer hover:text-blue-700 underline">
+                    Privacy Policy
+                  </a>
+                ) : (
+                  <span>Privacy Policy</span>
+                )}
+                .
+              </p>
+            </div>
           </div>
         </div>
       </div>
