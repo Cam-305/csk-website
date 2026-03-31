@@ -6,7 +6,6 @@ import Hero from "@/components/hero"
 import Stats from "@/components/stats"
 import Features from "@/components/features"
 import Testimonials from "@/components/testimonials"
-import OrderForm from "@/components/order-form"
 import Footer from "@/components/footer"
 import AboutPage from "@/components/pages/about-page"
 import ServicesPage from "@/components/pages/services-page"
@@ -42,7 +41,6 @@ export default function Home() {
         <Stats />
         <Features />
         <Testimonials />
-        <OrderForm />
       </main>
       <Footer showPage={showPage} />
     </div>
