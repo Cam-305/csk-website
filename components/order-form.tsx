@@ -13,7 +13,6 @@ export default function OrderForm() {
     state: "",
     zip: "",
     phone: "",
-    smsConsent: false,
   })
 
   const states = [
@@ -197,42 +196,6 @@ export default function OrderForm() {
                 onChange={handleInputChange}
                 className="w-full p-3 border border-gray-300 rounded-md text-base focus:outline-none focus:border-blue-500 focus:shadow-sm focus:shadow-blue-500/30"
               />
-            </div>
-
-            <div className="bg-gray-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
-              <h3 className="text-slate-700 mb-4">📱 SMS Communication Preferences</h3>
-              <p className="mb-4">
-                <strong>Child Safe Kit®</strong> can send you important updates about your order via text message.
-              </p>
-
-              <div className="flex items-start gap-2 mb-4 text-sm">
-                <input
-                  type="checkbox"
-                  id="smsTransactional"
-                  name="smsConsent"
-                  checked={formData.smsConsent}
-                  onChange={handleInputChange}
-                  className="w-auto mt-1"
-                />
-                <label htmlFor="smsTransactional">
-                  <strong>Order & Account Updates</strong> - Receive important messages about your kit order status and
-                  account updates.
-                  <br />
-                  <small className="text-gray-600">Frequency: 2-4 messages per order</small>
-                </label>
-              </div>
-
-              <div className="bg-white p-4 rounded-md mt-4 text-sm text-gray-600">
-                <p>
-                  <strong>SMS Terms:</strong>
-                </p>
-                <ul className="ml-6 mt-2">
-                  <li>Message and data rates may apply</li>
-                  <li>Text HELP for help or support</li>
-                  <li>Text STOP to unsubscribe at any time</li>
-                  <li>Customer Support: Call (321) 277-7612</li>
-                </ul>
-              </div>
             </div>
 
             <div className="text-sm text-gray-600 mb-6 p-4 bg-gray-50 rounded-md">

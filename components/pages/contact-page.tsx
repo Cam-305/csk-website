@@ -144,6 +144,15 @@ export default function ContactPage({ showPage }: ContactPageProps) {
                   />
                 </div>
 
+                <div className="text-sm text-slate-600 mb-4 p-4 bg-slate-50 rounded-md">
+                  <p className="mb-2">
+                    By submitting this form, you agree to our Privacy Policy and Terms of Service. Your information will be used solely for responding to your inquiry.
+                  </p>
+                  <p>
+                    <strong>Opt-Out:</strong> You may opt out of receiving communications from Child Safe Program at any time by contacting us at getchildsafeprogram@gmail.com or calling (321) 277-7612.
+                  </p>
+                </div>
+
                 <button
                   type="submit"
                   className="w-full bg-red-600 text-white py-3 px-6 rounded-md font-bold hover:bg-red-700 transition-colors"
