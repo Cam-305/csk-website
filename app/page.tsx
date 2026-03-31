@@ -7,7 +7,6 @@ import Stats from "@/components/stats"
 import Features from "@/components/features"
 import Testimonials from "@/components/testimonials"
 import OrderForm from "@/components/order-form"
-import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 import AboutPage from "@/components/pages/about-page"
 import ServicesPage from "@/components/pages/services-page"
@@ -44,7 +43,6 @@ export default function Home() {
         <Features />
         <Testimonials />
         <OrderForm />
-        <Contact />
       </main>
       <Footer showPage={showPage} />
     </div>
