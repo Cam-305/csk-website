@@ -9,7 +9,7 @@ export default function Header({ showPage }: HeaderProps) {
     <header className="bg-gradient-to-br from-slate-700 to-blue-500 text-white py-4 shadow-lg">
       <nav className="container mx-auto px-5 flex justify-between items-center flex-wrap">
         <div className="text-3xl font-bold text-white cursor-pointer" onClick={() => showPage("main")}>
-          Child Safe Kit®
+          Child Safe Program®
         </div>
         <ul className="flex list-none gap-8 flex-wrap">
           <li>

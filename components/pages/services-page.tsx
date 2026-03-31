@@ -19,9 +19,9 @@ export default function ServicesPage({ showPage }: ServicesPageProps) {
         <div className="bg-white p-12 rounded-xl shadow-md max-w-4xl mx-auto text-left">
           <h2 className="text-slate-700 mb-8 text-center text-3xl">Our Services</h2>
 
-          <h3 className="text-slate-700 mt-8 mb-4 text-xl">Free Child Safe Kit® Distribution</h3>
+          <h3 className="text-slate-700 mt-8 mb-4 text-xl">Free Child Safe Program® Distribution</h3>
           <p className="mb-6 leading-relaxed">
-            <strong>Our Primary Service:</strong> We provide comprehensive Child Safe Kits to families across the United
+            <strong>Our Primary Service:</strong> We provide comprehensive Child Safe Programs to families across the United
             States at absolutely no cost, including free shipping.
           </p>
 

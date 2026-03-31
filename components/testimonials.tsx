@@ -7,7 +7,7 @@ export default function Testimonials() {
           <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-blue-500">
             <p className="mb-4">
               {
-                '"The Child Safe Kit gave me peace of mind knowing I have all my daughter\'s important information organized and ready if ever needed. The safety tips were also incredibly helpful."'
+                '"The Child Safe Program gave me peace of mind knowing I have all my daughter\'s important information organized and ready if ever needed. The safety tips were also incredibly helpful."'
               }
             </p>
             <div className="font-bold text-slate-700">- Sarah M., Texas</div>

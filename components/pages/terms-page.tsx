@@ -28,7 +28,7 @@ export default function TermsPage({ showPage }: TermsPageProps) {
 
           <h3 className="text-slate-700 mt-8 mb-4 text-xl">Acceptance of Terms</h3>
           <p className="mb-6 leading-relaxed">
-            By accessing and using this website and ordering our Child Safe Kit, you accept and agree to be bound by the
+            By accessing and using this website and ordering our Child Safe Program, you accept and agree to be bound by the
             terms and provisions of this agreement with Child Safe Program.
           </p>
 
@@ -56,7 +56,7 @@ export default function TermsPage({ showPage }: TermsPageProps) {
 
           <h3 className="text-slate-700 mt-8 mb-4 text-xl">Limitation of Liability</h3>
           <p className="mb-6 leading-relaxed">
-            The Child Safe Kit is provided as an educational and preparedness tool. Child Safe Program makes no guarantees about the
+            The Child Safe Program is provided as an educational and preparedness tool. Child Safe Program makes no guarantees about the
             effectiveness of our materials in any specific situation. Users are responsible for the proper completion
             and storage of kit materials.
           </p>

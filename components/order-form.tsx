@@ -71,7 +71,7 @@ export default function OrderForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     // Here you would typically send the form data to your backend
-    alert("Thank you for your order! Your FREE Child Safe Kit will be shipped within 7-10 business days.")
+    alert("Thank you for your order! Your FREE Child Safe Program will be shipped within 7-10 business days.")
   }
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -85,7 +85,7 @@ export default function OrderForm() {
   return (
     <section id="order" className="py-12">
       <div className="container mx-auto px-5">
-        <h2 className="text-center mb-8 text-4xl text-slate-700">Order Your FREE Child Safe Kit®</h2>
+        <h2 className="text-center mb-8 text-4xl text-slate-700">Order Your FREE Child Safe Program®</h2>
         <div className="bg-white p-8 rounded-xl shadow-md max-w-2xl mx-auto">
           <form onSubmit={handleSubmit}>
             <div className="mb-6">
@@ -209,7 +209,7 @@ export default function OrderForm() {
               type="submit"
               className="w-full bg-green-600 text-white p-4 border-none rounded-md text-lg font-bold cursor-pointer transition-colors duration-300 hover:bg-green-700"
             >
-              Order My FREE Child Safe Kit®
+              Order My FREE Child Safe Program®
             </button>
           </form>
         </div>

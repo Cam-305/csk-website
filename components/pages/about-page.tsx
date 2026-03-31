@@ -17,11 +17,11 @@ export default function AboutPage({ showPage }: AboutPageProps) {
           </button>
         </div>
         <div className="bg-white p-12 rounded-xl shadow-md max-w-4xl mx-auto text-left">
-          <h2 className="text-slate-700 mb-8 text-center text-3xl">About Child Safe Kit®</h2>
+          <h2 className="text-slate-700 mb-8 text-center text-3xl">About Child Safe Program®</h2>
 
           <h3 className="text-slate-700 mt-8 mb-4 text-xl">Our Story</h3>
           <p className="mb-6 leading-relaxed">
-            Child Safe Kit® was founded in 2020 by a group of concerned parents and child safety advocates who
+            Child Safe Program® was founded in 2020 by a group of concerned parents and child safety advocates who
             recognized the critical need for comprehensive family preparedness tools. After learning that nearly 1,400
             children go missing in the United States every day, our founders were motivated to create a solution that
             would help families be better prepared for emergency situations.
@@ -31,12 +31,12 @@ export default function AboutPage({ showPage }: AboutPageProps) {
           <p className="mb-6 leading-relaxed">
             Our mission is simple yet vital: to empower parents and guardians with the tools and knowledge they need to
             protect their children. We believe that every family deserves access to comprehensive safety resources,
-            which is why we provide our Child Safe Kits completely free of charge.
+            which is why we provide our Child Safe Programs completely free of charge.
           </p>
 
           <h3 className="text-slate-700 mt-8 mb-4 text-xl">What We Do</h3>
           <p className="mb-6 leading-relaxed">
-            Child Safe Kit® provides comprehensive documentation tools that help families organize and store critical
+            Child Safe Program® provides comprehensive documentation tools that help families organize and store critical
             information about their children. Our kits include everything needed to create a complete profile that can
             assist law enforcement in search and recovery efforts. We also provide ongoing educational resources about
             child safety, emergency preparedness, and family protection.
@@ -79,7 +79,7 @@ export default function AboutPage({ showPage }: AboutPageProps) {
 
           <h3 className="text-slate-700 mt-8 mb-4 text-xl">Our Impact</h3>
           <p className="mb-6 leading-relaxed">
-            Since our founding, we have distributed over 500,000 Child Safe Kits to families across all 50 states. Our
+            Since our founding, we have distributed over 500,000 Child Safe Programs to families across all 50 states. Our
             educational resources have reached millions of parents, helping them have important safety conversations
             with their children and implement protective measures in their daily lives.
           </p>

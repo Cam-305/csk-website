@@ -33,7 +33,7 @@ export default function PrivacyPage({ showPage }: PrivacyPageProps) {
 
           <h3 className="text-slate-700 mt-8 mb-4 text-xl">Information We Collect</h3>
           <p className="mb-6 leading-relaxed">
-            We collect information you provide directly to us, such as when you order a Child Safe Kit, contact us, or
+            We collect information you provide directly to us, such as when you order a Child Safe Program, contact us, or
             sign up for communications. This may include your name, email address, mailing address, phone number, and
             communication preferences.
           </p>

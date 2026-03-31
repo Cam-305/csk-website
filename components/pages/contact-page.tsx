@@ -168,7 +168,7 @@ export default function ContactPage({ showPage }: ContactPageProps) {
             <div className="bg-white p-8 rounded-xl shadow-md">
               <h3 className="text-xl font-semibold mb-4">Get in Touch</h3>
               <p>
-                <strong>Child Safe Kit®, LLC</strong>
+                <strong>Child Safe Program®, LLC</strong>
               </p>
               <p className="mb-4">
                 <strong>Address:</strong>

@@ -10,14 +10,14 @@ export default function Footer({ showPage }: FooterProps) {
       <div className="container mx-auto px-5">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="mb-4 text-blue-400">Child Safe Kit®</h3>
+            <h3 className="mb-4 text-blue-400">Child Safe Program®</h3>
             <p className="mb-4">
               Protecting families through preparedness and education. Every child deserves to be safe.
             </p>
             <p>
               <strong>Business Information:</strong>
               <br />
-              Child Safe Kit®, LLC
+              Child Safe Program®, LLC
               <br />
               1427 Bayfront Dr
               <br />
@@ -81,8 +81,8 @@ export default function Footer({ showPage }: FooterProps) {
         </div>
 
         <div className="text-center pt-8 border-t border-slate-600 text-gray-300">
-          <p>&copy; 2025 Child Safe Kit®, LLC. All rights reserved. | Licensed and Insured</p>
-          <p>Child Safe Kit® is a registered trademark. Not affiliated with any government agency.</p>
+          <p>&copy; 2025 Child Safe Program®, LLC. All rights reserved. | Licensed and Insured</p>
+          <p>Child Safe Program® is a registered trademark. Not affiliated with any government agency.</p>
         </div>
       </div>
     </footer>
