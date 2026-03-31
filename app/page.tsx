@@ -37,7 +37,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50">
       <Header showPage={showPage} />
       <main>
-        <Hero />
+        <Hero showPage={showPage} />
         <Stats />
         <Features />
         <Testimonials />
