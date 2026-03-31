@@ -1,10 +1,10 @@
 "use client"
 
 export default function Hero() {
-  const scrollToOrder = () => {
-    const orderSection = document.getElementById("order")
-    if (orderSection) {
-      orderSection.scrollIntoView({ behavior: "smooth" })
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact")
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" })
     }
   }
 
@@ -18,7 +18,7 @@ export default function Hero() {
           find your child quickly. Order your no-cost Child Safe Kit® today.
         </p>
         <button
-          onClick={scrollToOrder}
+          onClick={scrollToContact}
           className="inline-block bg-red-600 text-white py-4 px-8 no-underline rounded-md text-lg font-bold transition-all duration-300 shadow-lg border-none cursor-pointer hover:bg-red-700 hover:-translate-y-1 hover:shadow-xl"
         >
           Get Your FREE Kit Now
