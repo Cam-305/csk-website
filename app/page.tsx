@@ -18,7 +18,9 @@ export default function Home() {
   const [currentPage, setCurrentPage] = useState("main")
 
   const showPage = (page: string) => {
+    console.log("[v0] showPage called with:", page)
     setCurrentPage(page)
+    window.scrollTo(0, 0)
   }
 
   // Hide/show chat widget based on current page
