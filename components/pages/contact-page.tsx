@@ -62,7 +62,7 @@ export default function ContactPage({ showPage }: ContactPageProps) {
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1">
-                    Full Name *
+                    Full Name
                   </label>
                   <input
                     type="text"
@@ -70,7 +70,6 @@ export default function ContactPage({ showPage }: ContactPageProps) {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    required
                     className="w-full px-4 py-3 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder="Your full name"
                   />
@@ -78,7 +77,7 @@ export default function ContactPage({ showPage }: ContactPageProps) {
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1">
-                    Email Address *
+                    Email Address
                   </label>
                   <input
                     type="email"
@@ -86,7 +85,6 @@ export default function ContactPage({ showPage }: ContactPageProps) {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    required
                     className="w-full px-4 py-3 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder="your@email.com"
                   />
@@ -109,14 +107,13 @@ export default function ContactPage({ showPage }: ContactPageProps) {
 
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-slate-700 mb-1">
-                    Subject *
+                    Subject
                   </label>
                   <select
                     id="subject"
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    required
                     className="w-full px-4 py-3 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
                     <option value="">Select a subject</option>
@@ -130,14 +127,13 @@ export default function ContactPage({ showPage }: ContactPageProps) {
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1">
-                    Message *
+                    Message
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    required
                     rows={5}
                     className="w-full px-4 py-3 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
                     placeholder="How can we help you?"
