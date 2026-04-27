@@ -152,6 +152,18 @@ export default function ContactPage({ showPage }: ContactPageProps) {
                   </label>
                 </div>
 
+                <div className="text-sm text-slate-600 mb-4 text-center">
+                  By submitting, you agree to our{" "}
+                  <a onClick={() => showPage("terms")} className="text-blue-500 cursor-pointer hover:text-blue-700 underline">
+                    Terms of Service
+                  </a>{" "}
+                  and{" "}
+                  <a onClick={() => showPage("privacy")} className="text-blue-500 cursor-pointer hover:text-blue-700 underline">
+                    Privacy Policy
+                  </a>
+                  .
+                </div>
+
                 <button
                   type="submit"
                   className="w-full bg-red-600 text-white py-3 px-6 rounded-md font-bold hover:bg-red-700 transition-colors"
