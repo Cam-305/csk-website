@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
@@ -39,6 +40,12 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         {children}
         <Analytics />
+        <Script
+          src="https://widgets.leadconnectorhq.com/loader.js"
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="69eebc5ebd8fe83f2534e0d8"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
