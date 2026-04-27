@@ -141,11 +141,8 @@ export default function ContactPage({ showPage }: ContactPageProps) {
                 </div>
 
                 <div className="text-sm text-slate-600 mb-4 p-4 bg-slate-50 rounded-md">
-                  <p className="mb-2">
-                    By submitting this form, you agree to our Privacy Policy and Terms of Service. Your information will be used solely for responding to your inquiry.
-                  </p>
                   <p>
-                    <strong>Opt-Out:</strong> You may opt out of receiving communications from Child Safe Program at any time by contacting us at getchildsafeprogram@gmail.com or calling (321) 277-7612.
+                    I consent to receive marketing text messages, about special offers, discounts, and service updates, from Child Safe Program at the phone number provided. Message frequency may vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.
                   </p>
                 </div>
 
