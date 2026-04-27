@@ -140,10 +140,16 @@ export default function ContactPage({ showPage }: ContactPageProps) {
                   />
                 </div>
 
-                <div className="text-sm text-slate-600 mb-4 p-4 bg-slate-50 rounded-md">
-                  <p>
+                <div className="flex items-start gap-3 text-sm text-slate-600 mb-4 p-4 bg-slate-50 rounded-md">
+                  <input
+                    type="checkbox"
+                    id="optIn"
+                    name="optIn"
+                    className="mt-1 h-4 w-4 rounded border-slate-300 text-blue-600 focus:ring-blue-500"
+                  />
+                  <label htmlFor="optIn" className="cursor-pointer">
                     I consent to receive marketing text messages, about special offers, discounts, and service updates, from Child Safe Program at the phone number provided. Message frequency may vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.
-                  </p>
+                  </label>
                 </div>
 
                 <button
