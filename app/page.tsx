@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Script from "next/script"
 import Header from "@/components/header"
 import Hero from "@/components/hero"
@@ -20,6 +20,20 @@ export default function Home() {
   const showPage = (page: string) => {
     setCurrentPage(page)
   }
+
+  // Hide/show chat widget based on current page
+  useEffect(() => {
+    const chatWidget = document.querySelector('[data-widget-id="69eebc5ebd8fe83f2534e0d8"]')?.parentElement?.parentElement
+    const chatIframe = document.getElementById('lc_chat_widget')
+    
+    if (currentPage === "contact") {
+      if (chatWidget) (chatWidget as HTMLElement).style.display = "none"
+      if (chatIframe) chatIframe.style.display = "none"
+    } else {
+      if (chatWidget) (chatWidget as HTMLElement).style.display = ""
+      if (chatIframe) chatIframe.style.display = ""
+    }
+  }, [currentPage])
 
   if (currentPage !== "main") {
     return (
